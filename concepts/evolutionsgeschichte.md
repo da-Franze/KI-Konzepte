@@ -23,6 +23,10 @@ zu prüfen und zu kommunizieren — ohne die Kernideen zu verfälschen?
 
 ## Der Wendepunkt: Das Post-Verteilerzentrum (PVZ)
 
+Das Konzept entstand vermutlich Dezember 2024 in einer ChatGPT-Sitzung. Diese Sitzung gehört zur ChatGPT-Frühphase September–Dezember 2024, die OpenAI server-seitig nicht im Export bereitgestellt hat — sie ist daher heute verloren. Die anderen KI-Plattformen (Claude, Gemini, Mistral, DeepSeek) haben dagegen vollständige Exporte; das PVZ-Konzept fehlt dort einfach, weil es zum Zeitpunkt der Erstformulierung noch nicht zu ihnen gewandert war.
+
+Die früheste **dokumentierte** Quelle ist daher der Mistral-Chat vom 15.–17. September 2025 — eine spätere Re-Formulierung der bereits etablierten Idee. Drei zentrale Stellen:
+
 *„Eine Strukturierung und Sortierung der Dokumente nach dem Prinzip sollte das Arbeiten
 deutlich erleichtern und auch mehr Informationen griffbereit haben —
 **Briefverteilerzentrum für Informationen und Wissen!**
@@ -44,7 +48,7 @@ kannst du diese Informationen abrufen und bearbeiten, das Ergebnis mit ablegen u
 deinen Speicher aufräumen um Platz für die nächste Aufgabe zu haben."*
 — 17. September 2025, 0:20 Uhr
 
-Das war die Frage, die alles veränderte.
+Das war die Frage, die alles veränderte — auch wenn sie dokumentiert erst neun Monate nach der Erst-Formulierung in einer anderen Plattform wieder auftauchte.
 
 **Das ursprüngliche Problem:** GPT musste bei jeder Sitzung alle RFT-Dokumente lesen —
 eine Katastrophe, weil die Theorie kein Standard-Lernfeld ist und GPT kein spezifisches
