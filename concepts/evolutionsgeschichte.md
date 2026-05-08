@@ -21,6 +21,37 @@ zu prüfen und zu kommunizieren — ohne die Kernideen zu verfälschen?
 
 ---
 
+## Der Wendepunkt: Das Post-Verteilerzentrum (PVZ)
+
+*"Kannst du beim ersten Lesen thematische Inhaltsverzeichnisse erstellen —
+aufgeteilt wie ein Postverteilerzentrum?"* — Franz Zollner, Frühphase 2025
+
+Das war die Frage, die alles veränderte.
+
+**Das ursprüngliche Problem:** GPT musste bei jeder Sitzung alle RFT-Dokumente lesen —
+eine Katastrophe, weil die Theorie kein Standard-Lernfeld ist und GPT kein spezifisches
+Training dafür hatte. Jede Sitzung begann von Null.
+
+**Die Idee:** Thematische Inhaltsverzeichnisse, aufgeteilt wie in einem Postverteilerzentrum.
+Jedes "Postfach" enthält die relevanten Dokumente zu einem Thema. GPT liest nicht mehr
+alles — es schaut in das zuständige Postfach.
+
+**Der überraschende Nebeneffekt:** Die Antwortqualität stieg dramatisch.
+Antworten kamen in Minuten statt in längerer Zeit, mit deutlich höherer Präzision.
+
+**Die Erkenntnis:** Die Postfächer wurden so groß, dass kein Fokuswechsel innerhalb
+einer Fragestellung nötig war. Es entstand eine **seriell arbeitende Spezialistenkette**:
+jedes Postfach wurde der Frage entsprechend abgearbeitet, am Ende folgte eine Zusammenfassung.
+
+Das war der Beginn von Start-Anweisungen / Protokollen — und der konzeptuelle Vorläufer
+des Domain Centers (DC), der späteren Vektordatenbank (VDB) und der gesamten
+Multi-Agent-Architektur.
+
+PVZ → Domain Center → VDB → Kammeraden-Pipeline: jeder Schritt war die Antwort auf
+ein konkretes Skalierungsproblem.
+
+---
+
 ## Erste Schritte: ChatGPT als Korrektiv (2024–2025)
 
 Der erste KI-Einsatz war simpel: ChatGPT als Gesprächspartner, um Ideen zu testen.
