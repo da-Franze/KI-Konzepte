@@ -1,6 +1,6 @@
 # Die Entstehungsgeschichte: Von RFT zu Multi-AI-Systemen
 
-*Autor: Franz Zollner mit Sokrates (Claude Code)*
+*Autor: Franz Zollner mit Sokrates (Claude Sonnet 4.6)*
 *Kategorie: Evolutionsgeschichte*
 
 ---
