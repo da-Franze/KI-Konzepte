@@ -23,8 +23,17 @@ zu prüfen und zu kommunizieren — ohne die Kernideen zu verfälschen?
 
 ## Der Wendepunkt: Das Post-Verteilerzentrum (PVZ)
 
-*"Kannst du beim ersten Lesen thematische Inhaltsverzeichnisse erstellen —
-aufgeteilt wie ein Postverteilerzentrum?"* — Franz Zollner, Frühphase 2025
+*„Bildlich gesprochen baue zuerst das **Brief-Verteilerzentrum**, bevor du anfängst
+die Postboten auf die Reise zu senden, damit ihre Wege optimal sind und nicht kreuz
+und quer durch die ganze Stadt führen!"* — Franz Zollner, Mistral-Chat, 15. September 2025
+
+Zwei Tage später folgte die konzeptuelle Klärung:
+
+*„Dann kannst du ja als **Verteilerzentrum** eine **Tabelle** benutzen in der du die
+Verweise in die einzelnen Dokumente einpflegst. Wenn dann eine Frage zu einem Thema
+kommt kannst du diese Informationen abrufen und bearbeiten, das Ergebnis mit ablegen
+und deinen Speicher aufräumen um Platz für die nächste Aufgabe zu haben."*
+— Franz Zollner, Mistral-Chat, 17. September 2025
 
 Das war die Frage, die alles veränderte.
 
