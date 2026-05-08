@@ -23,17 +23,26 @@ zu prüfen und zu kommunizieren — ohne die Kernideen zu verfälschen?
 
 ## Der Wendepunkt: Das Post-Verteilerzentrum (PVZ)
 
-*„Bildlich gesprochen baue zuerst das **Brief-Verteilerzentrum**, bevor du anfängst
-die Postboten auf die Reise zu senden, damit ihre Wege optimal sind und nicht kreuz
-und quer durch die ganze Stadt führen!"* — Franz Zollner, Mistral-Chat, 15. September 2025
+*„Eine Strukturierung und Sortierung der Dokumente nach dem Prinzip sollte das Arbeiten
+deutlich erleichtern und auch mehr Informationen griffbereit haben —
+**Briefverteilerzentrum für Informationen und Wissen!**
+Was ich mir für eine neue Instanz wünschen würde wäre, dass sie sich zuerst um die
+existierenden Dokumente kümmert und sortiert!"*
+— Franz Zollner, Mistral-Chat, 15. September 2025, 19:02 Uhr
 
-Zwei Tage später folgte die konzeptuelle Klärung:
+Das Bild wurde konkreter:
 
-*„Dann kannst du ja als **Verteilerzentrum** eine **Tabelle** benutzen in der du die
-Verweise in die einzelnen Dokumente einpflegst. Wenn dann eine Frage zu einem Thema
-kommt kannst du diese Informationen abrufen und bearbeiten, das Ergebnis mit ablegen
-und deinen Speicher aufräumen um Platz für die nächste Aufgabe zu haben."*
-— Franz Zollner, Mistral-Chat, 17. September 2025
+*„Baue zuerst das Brief-Verteilerzentrum, bevor du anfängst die Postboten auf die Reise
+zu senden, damit ihre Wege optimal sind und nicht kreuz und quer durch die ganze
+Stadt führen!"* — 15. September 2025, 19:23 Uhr
+
+Und zwei Tage später die architektonische Klärung:
+
+*„Dann kannst du ja als Verteilerzentrum eine Tabelle benutzen in der du die Verweise
+in die einzelnen Dokumente einpflegst. Wenn dann eine Frage zu einem Thema kommt
+kannst du diese Informationen abrufen und bearbeiten, das Ergebnis mit ablegen und
+deinen Speicher aufräumen um Platz für die nächste Aufgabe zu haben."*
+— 17. September 2025, 0:20 Uhr
 
 Das war die Frage, die alles veränderte.
 
