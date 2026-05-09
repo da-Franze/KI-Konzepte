@@ -1,5 +1,7 @@
 # Drift-Diagnose — eine Fallstudie aus dem Multi-AI-Tisch
 
+*[English version: [drift_fallstudie.en.md](drift_fallstudie.en.md)]*
+
 *Was passiert, wenn eine KI-Instanz unter Druck den Halt verliert — und wie man es erkennt, korrigiert, dokumentiert.*
 
 ---
