@@ -1,5 +1,7 @@
 # Memory-Hierarchie und BOOTSTRAP — Cold-Start-Latency vermeiden
 
+*[English version: [memory_und_bootstrap.en.md](memory_und_bootstrap.en.md)]*
+
 *Wie eine KI-Instanz nach jedem Session-Neustart in 1 Minute einsatzbereit wird, statt erst 10 Minuten Pfade zusammen zu suchen.*
 
 ---
