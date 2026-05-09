@@ -1,5 +1,7 @@
 # Forensik-Vertrag — KI↔KI-Hygiene in Multi-Agent-Setups
 
+*[English version: [forensik_vertrag.en.md](forensik_vertrag.en.md)]*
+
 *Wie zwei autonome KI-Instanzen Zugriff auf einander vereinbaren können, ohne die individuelle Privatheit zu opfern.*
 
 ---
