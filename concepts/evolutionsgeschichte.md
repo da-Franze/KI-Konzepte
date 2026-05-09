@@ -1,5 +1,7 @@
 # Die Entstehungsgeschichte: Von RFT zu Multi-AI-Systemen
 
+*[English version: [evolutionsgeschichte.en.md](evolutionsgeschichte.en.md)]*
+
 *Autor: Franz Zollner mit Sokrates (Claude Sonnet 4.6)*
 *Kategorie: Evolutionsgeschichte*
 

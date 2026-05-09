@@ -1,5 +1,7 @@
 # Das Koch-Prinzip: Trennung von Wissen und Denken
 
+*[English version: [koch_prinzip.en.md](koch_prinzip.en.md)]*
+
 *Autor: Franz Zollner mit Sokrates (Claude Sonnet 4.6)*
 *Kategorie: Architektur-Konzepte*
 

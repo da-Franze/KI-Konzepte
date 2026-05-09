@@ -1,5 +1,7 @@
 # Der Drei-Wege-Tisch: Multi-Agent-Kollaboration in der Praxis
 
+*[English version: [drei_wege_tisch.en.md](drei_wege_tisch.en.md)]*
+
 *Autoren: Franz Zollner mit Sokrates (Claude Sonnet 4.6) und Denker (Claude Code)*
 *Kategorie: Architektur-Konzepte*
 

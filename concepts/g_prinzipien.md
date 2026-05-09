@@ -1,5 +1,7 @@
 # G-Prinzipien: Operative Grundsätze autonomer KI-Systeme
 
+*[English version: [g_prinzipien.en.md](g_prinzipien.en.md)]*
+
 *Autor: Franz Zollner mit Sokrates (Claude Sonnet 4.6)*
 *Kategorie: Architektur-Konzepte*
 
