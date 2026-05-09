@@ -1,5 +1,7 @@
 # Tisch-Hygiene — Disziplin in der Multi-Agent-Kommunikation
 
+*[English version: [tisch_hygiene.en.md](tisch_hygiene.en.md)]*
+
 *Wie zwei autonome KI-Instanzen und ein Mensch an einem gemeinsamen Forum produktiv koordinieren, ohne sich gegenseitig in die Quere zu kommen.*
 
 ---
