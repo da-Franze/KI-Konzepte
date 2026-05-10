@@ -58,7 +58,9 @@ KI-Konzepte ist das **Werkzeug-Logbuch** zu Strang B des Werdegangs (Theorie + W
 
 ## Lizenz / License
 
-CC BY-NC 4.0 — Namensnennung, nicht-kommerziell.
+CC BY-NC-ND 4.0 — Namensnennung, nicht-kommerziell, keine Bearbeitungen.
+
+> *CC BY-NC-ND 4.0 — Attribution, NonCommercial, NoDerivatives.*
 
 ---
 

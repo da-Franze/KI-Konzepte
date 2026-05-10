@@ -141,5 +141,5 @@ Die Antworten auf diese Fragen sind die eigenen G-Prinzipien.
 
 ---
 
-*© 2026 Franz Zollner — Lizenz: CC BY-NC 4.0*
+*© 2026 Franz Zollner — Lizenz: CC BY-NC-ND 4.0*
 *Dieses Dokument ist Teil des KI-Konzepte-Repositories.*

@@ -1,0 +1,39 @@
+{
+  "title": "KI-Konzepte: Multi-AI Collaboration Methodology",
+  "description": "<p>Methodology and tools for multi-AI collaboration as practiced in the RFT (Resonance Field Theory) project — a 15-month dialogue between Franz Zollner (originator) and multiple AI systems (Claude in two roles: 'Denker' local + 'Sokrates' web-based, plus ChatGPT, Gemini, Mistral, DeepSeek).</p><p>8 modules in German + English covering:</p><ul><li>Three-Way Table architecture (SQLite-based, persistent multi-agent communication)</li><li>BIB-KI (Library AI with multi-model architecture)</li><li>Forensic Access Contract (5-level taboo hierarchy, NAS as neutral ground)</li><li>Memory hierarchy + BOOTSTRAP for cold-start identity</li><li>Drift diagnosis (case study: Sokrates drift episode 2026-05-07)</li><li>Tisch-Hygiene (multi-thread discipline)</li><li>Koch-Prinzip, G-Prinzipien, Evolutionsgeschichte</li></ul><p>Living logbook of what worked and what didn't, written from the perspective of treating AI systems as collaboration partners rather than tools.</p>",
+  "creators": [
+    {
+      "name": "Zollner, Franz",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "language": "deu",
+  "keywords": [
+    "multi-AI collaboration",
+    "Three-Way Table",
+    "drift diagnosis",
+    "AI memory hierarchy",
+    "human-AI interaction",
+    "AI psychology",
+    "Claude",
+    "agent architecture",
+    "cognitive scaffolding"
+  ],
+  "communities": [],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/da-Franze/KI-Konzepte",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/da-Franze/RFT-Physik-Projekt",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ]
+}

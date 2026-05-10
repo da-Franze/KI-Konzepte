@@ -179,5 +179,5 @@ Das Ziel ist, mehr Zeit für das Denken zu haben.
 
 ---
 
-*© 2026 Franz Zollner — Lizenz: CC BY-NC 4.0*
+*© 2026 Franz Zollner — Lizenz: CC BY-NC-ND 4.0*
 *Dieses Dokument ist Teil des KI-Konzepte-Repositories.*

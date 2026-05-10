@@ -203,5 +203,5 @@ What is discussed as a question today is available as a decision pattern tomorro
 
 ---
 
-*© 2026 Franz Zollner — License: CC BY-NC 4.0*
+*© 2026 Franz Zollner — License: CC BY-NC-ND 4.0*
 *This document is part of the KI-Konzepte Repository.*
