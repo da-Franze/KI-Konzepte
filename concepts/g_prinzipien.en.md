@@ -139,5 +139,5 @@ The answers to these questions are your own G-Principles.
 
 ---
 
-*© 2026 Franz Zollner — License: CC BY-NC 4.0*
+*© 2026 Franz Zollner — License: CC BY-NC-ND 4.0*
 *This document is part of the KI-Konzepte Repository.*
