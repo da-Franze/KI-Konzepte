@@ -872,6 +872,16 @@ def _generiere_code(prompt: str, primaer_modell: str, ziel_ist_python: bool = Tr
     return code
 
 
+def graph_dateiname(kanonischer_name: str | None, target_name: str) -> str:
+    """Fund 2026-09-14 (Sokrates, quad-ki-neu-Instanz, live verifiziert):
+    call_graph_kanten-Abfragen trafen strukturell nie, weil der Coder unter
+    dem internen Bestellungsnamen schrieb, der Debugger aber unter dem
+    kanonischen Dateinamen las. Ein Namensschluessel fuer beide Seiten."""
+    if kanonischer_name:
+        return kanonischer_name
+    return target_name if target_name.endswith(".py") else f"{target_name}.py"
+
+
 def _aktualisiere_call_graph(target_name: str, code: str, task_id: str) -> int:
     """Touchpoint 1 der call_graph_kanten-Infrastruktur (Betreiber-Auftrag ueber
     Mentor, 2026-08-26): schreibt bei jeder erfolgreichen Code-Generierung
@@ -980,6 +990,8 @@ def run_once() -> bool:
             ).fetchone()
             if kn_row and kn_row[0] and not kn_row[0].endswith(".py"):
                 ziel_ist_python = False
+
+        kanonischer_name_fuer_graph = kn_row[0] if (bestellung_id_fuer_weiche and kn_row) else None
 
         kontext_treffer = vdb.search(knowledge_links, top_k=3)
         kontext = "\n".join(f"- {t['text'][:200]}" for t in kontext_treffer) or "(keine)"
@@ -1159,7 +1171,7 @@ def run_once() -> bool:
             # Touchpoint 1 (call_graph_kanten, Betreiber-Auftrag 2026-08-26) --
             # nur fuer echte Python-Ziele sinnvoll, nicht fuer Markdown-/
             # Dokument-Bestellungen (ziel_ist_python-Weiche siehe oben).
-            _aktualisiere_call_graph(target_name, code, task_id)
+            _aktualisiere_call_graph(graph_dateiname(kanonischer_name_fuer_graph, target_name), code, task_id)
 
         con.execute(
             "UPDATE task_pipeline SET status='code_ready', "

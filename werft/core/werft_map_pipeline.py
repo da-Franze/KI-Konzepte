@@ -252,11 +252,15 @@ class WerftMapPipeline:
         original = extract_node_source(projektordner, node_id)
         original_tree = ast.parse(original["source"])
         candidate_tree = ast.parse(kandidat, filename=node_id)
+        # Fund 2026-09-14 (Sokrates, live verifiziert): ast.walk() zaehlte
+        # verschachtelte Hilfsfunktionen faelschlich als zweite Top-Level-
+        # Funktion mit. Nur die tatsaechliche Modulebene zaehlt.
         candidate_nodes = [
-            node for node in ast.walk(candidate_tree)
+            node for node in candidate_tree.body
             if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef))
         ]
         errors = []
+        warnings = []
         if len(candidate_nodes) != 1 or candidate_nodes[0].name != original["name"].rsplit(".", 1)[-1]:
             errors.append("contract: candidate must contain exactly the mapped function")
         original_function = next(
@@ -284,13 +288,18 @@ class WerftMapPipeline:
         original_metric = metric(original_function)
         candidate_metric = metric(candidate_function) if candidate_function else None
         if candidate_metric and candidate_metric > original_metric:
-            errors.append("optimization: candidate is structurally larger or more branched")
+            # Fund 2026-09-14 (Sokrates, mit Franz' expliziter Freigabe): ein
+            # echter, funktional erweiternder Patch ist notwendigerweise
+            # groesser -- das lehnte bisher JEDEN solchen Patch hart ab.
+            # Warnung statt hartem Fehler, blockiert die Freigabe nicht mehr.
+            warnings.append("optimization: candidate is structurally larger or more branched")
         return {
             "format": "werft-node-optimization-v1",
             "node_id": node_id,
             "status": "freigegeben" if not errors else "abgelehnt",
             "mutated_project": False,
             "errors": errors,
+            "warnings": warnings,
             "original": {"line": original["line"], "metrics": original_metric},
             "candidate": {"metrics": candidate_metric} if candidate_metric else None,
         }
